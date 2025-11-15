@@ -2,7 +2,7 @@
 
 A command-line Q&A system built for the Kalpit Pvt Ltd AI Intern Assignment. This system implements a Retrieval-Augmented Generation (RAG) pipeline to answer questions based on Dr. B.R. Ambedkar's speech using LangChain, ChromaDB, and Ollama.
 
-## 🎯 Assignment Overview
+## Assignment Overview
 
 This prototype demonstrates the fundamental building blocks of a RAG system:
 - **Document Loading**: Ingests text from `speech.txt`
@@ -12,7 +12,7 @@ This prototype demonstrates the fundamental building blocks of a RAG system:
 - **Retrieval**: Retrieves relevant chunks based on user questions
 - **Generation**: Generates answers using Ollama with Mistral 7B
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Language**: Python 3.8+
 - **Framework**: LangChain
@@ -21,7 +21,7 @@ This prototype demonstrates the fundamental building blocks of a RAG system:
 - **LLM**: Ollama with Mistral 7B
 - **No API Keys Required**: 100% free and local
 
-## 📋 Prerequisites
+## Prerequisites
 
 1. **Python 3.8+**
 2. **Ollama**: Download and install Ollama
@@ -37,7 +37,7 @@ curl -fsSL https://ollama.ai/install.sh | sh
 ollama pull mistral
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone/Download the Project
 
@@ -120,7 +120,7 @@ AmbedkarGPT-Intern-Task/
 └── chroma_db/          # Local vector database (created automatically)
 ```
 
-## 🔧 How It Works
+## How It Works
 
 ### 1. Document Loading
 - Uses `TextLoader` to load `speech.txt`
@@ -133,7 +133,6 @@ AmbedkarGPT-Intern-Task/
 ### 3. Embedding Generation
 - Uses `sentence-transformers/all-MiniLM-L6-v2` model
 - Creates 384-dimensional vector embeddings
-- Runs locally on CPU (no GPU required)
 
 ### 4. Vector Storage
 - ChromaDB stores embeddings locally in `./chroma_db`
@@ -150,7 +149,7 @@ AmbedkarGPT-Intern-Task/
 - Generates answer based solely on provided text
 - Returns answer with source document references
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -170,19 +169,6 @@ AmbedkarGPT-Intern-Task/
    - Ensure you're using Python 3.8 or higher
    - Check with: `python --version`
 
-4. **Dependencies not installing**
-   ```bash
-   # Upgrade pip first
-   pip install --upgrade pip
-   # Then install requirements
-   pip install -r requirements.txt
-   ```
-
-5. **Permission issues**
-   ```bash
-   # If you get permission errors, try:
-   chmod +x main.py
-   ```
 
 ### Performance Tips
 
@@ -190,18 +176,18 @@ AmbedkarGPT-Intern-Task/
 - **Subsequent runs**: Much faster as vectors are loaded from cache
 - **Memory usage**: System uses ~500MB RAM for embeddings and models
 
-## 🧪 Testing the System
+## Testing the System
 
-### Test Commands
-```bash
+### Test Questions
+```
 # Test basic functionality
-python main.py "What is the main problem discussed?"
+"What is the main problem discussed?"
 
 # Test with specific quotes
-python main.py "What does Ambedkar say about gardeners?"
+"What does Ambedkar say about gardeners?"
 
 # Test comprehension
-python main.py "Why can't people have both caste practice and belief in shastras?"
+"Why can't people have both caste practice and belief in shastras?"
 ```
 
 ### Expected Behavior
@@ -210,7 +196,7 @@ python main.py "Why can't people have both caste practice and belief in shastras
 - Source documents should be displayed with each answer
 - System should gracefully handle unrelated questions
 
-## 📚 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 1. **RAG Architecture**: Complete retrieval-augmented generation pipeline
 2. **Vector Similarity**: Semantic search using embeddings
@@ -219,17 +205,7 @@ python main.py "Why can't people have both caste practice and belief in shastras
 5. **Context Retrieval**: Finding relevant information for questions
 6. **LLM Integration**: Connecting local LLM with retrieved context
 
-## 🎓 Learning Outcomes
-
-This assignment demonstrates understanding of:
-- LangChain framework fundamentals
-- Vector databases and embeddings
-- RAG system architecture
-- Local AI model deployment
-- Command-line application development
-- Error handling and user experience
-
-## 📝 Notes for Reviewers
+## Notes
 
 - **No API keys required**: Everything runs locally
 - **Fully functional**: Complete end-to-end RAG pipeline
@@ -238,16 +214,16 @@ This assignment demonstrates understanding of:
 - **User-friendly**: Interactive mode with clear instructions
 - **Extensible**: Easy to add more documents or modify parameters
 
-## 🤝 Contributing
+## Contributing
 
 This is an assignment submission, but the code is structured to be easily extensible for future development.
 
-## 📄 License
+## License
 
 This project is submitted as part of an assignment and is intended for educational purposes.
 
 ---
 
 **Assignment Completed for: Kalpit Pvt Ltd AI Intern Hiring**  
-**Candidate: [Your Name]**  
+**Candidate: Devansh Thakkar**  
 **Date: November 2025**

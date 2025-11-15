@@ -78,28 +78,36 @@ python main.py
 python main.py "What is the real remedy according to Ambedkar?"
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Interactive Mode
 ```
-🤖 Ambedkar RAG System - Interactive Mode
+============================================================
+Ambedkar RAG System - Interactive Mode
 Type your questions about Dr. Ambedkar's speech
 Type 'quit', 'exit', or 'q' to exit
 ============================================================
 
-❓ Ask a question: What does Ambedkar say is the real remedy?
+Ask a question: Why can't people have both caste practice and belief in shastras?
 
-🤔 Processing question: What does Ambedkar say is the real remedy?
+Processing question: Why can't people have both caste practice and belief in shastras?
 
-📝 Answer:
+Answer:
 --------------------------------------------------
-The real remedy, according to Dr. Ambedkar, is to destroy the belief in the sanctity of the shastras. He argues that as long as people continue to hold the shastras as sacred and infallible, they will never be able to get rid of the caste system.
+ People can't have both caste practice and belief in shastras because, according to this context, believing in the shastras (ancient Hindu texts) supports the caste system, making it difficult to eliminate. The argument suggests that social reform aimed at ending caste discrimination is, in essence, a challenge to the authority of these sacred texts, which are seen as foundational to the caste system. Therefore, to uphold both the caste practice and belief in shastras would be contradictory because one implies challenging the other.
 --------------------------------------------------
 
-📚 Source Documents:
+Source Documents:
 
 Source 1:
-Content: The real remedy is to destroy the belief in the sanctity of the shastras. How do you expect to succeed if you allow the shastras to continue to be held as sacred and infallible?
+Content: as sacred and infallible? You must take a stand against the scriptures. Either you must stop the practice of caste or you must stop believing in the shastras. You cannot have both. The problem of
+
+Source 2:
+Content: So long as people believe in the sanctity of the shastras, they will never be able to get rid of caste. The work of social reform is like the work of a gardener who is constantly pruning the leaves
+
+Source 3:
+Content: the shastras. You cannot have both. The problem of caste is not a problem of social reform. It is a problem of overthrowing the authority of the shastras. So long as people believe in the sanctity of
+ 
 ```
 
 ### Sample Questions to Try
@@ -109,7 +117,7 @@ Content: The real remedy is to destroy the belief in the sanctity of the shastra
 - "How does Ambedkar describe the problem of caste?"
 - "What must people stop believing according to Ambedkar?"
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AmbedkarGPT-Intern-Task/
@@ -176,19 +184,6 @@ AmbedkarGPT-Intern-Task/
 - **Subsequent runs**: Much faster as vectors are loaded from cache
 - **Memory usage**: System uses ~500MB RAM for embeddings and models
 
-## Testing the System
-
-### Test Questions
-```
-# Test basic functionality
-"What is the main problem discussed?"
-
-# Test with specific quotes
-"What does Ambedkar say about gardeners?"
-
-# Test comprehension
-"Why can't people have both caste practice and belief in shastras?"
-```
 
 ### Expected Behavior
 - System should answer questions based only on the provided text
@@ -218,12 +213,8 @@ AmbedkarGPT-Intern-Task/
 
 This is an assignment submission, but the code is structured to be easily extensible for future development.
 
-## License
-
-This project is submitted as part of an assignment and is intended for educational purposes.
-
 ---
 
 **Assignment Completed for: Kalpit Pvt Ltd AI Intern Hiring**  
 **Candidate: Devansh Thakkar**  
-**Date: November 2025**
+**Date: 15 November 2025**

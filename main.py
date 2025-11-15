@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ambedkar RAG System - Command Line Q&A System
+Ambedkar RAG System -  Q&A System
 Assignment 1 for Kalpit Pvt Ltd AI Intern Hiring
 
 This system implements a Retrieval-Augmented Generation (RAG) pipeline using:

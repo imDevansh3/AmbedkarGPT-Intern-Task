@@ -24,10 +24,6 @@ from langchain.chains import RetrievalQA
 from langchain.schema import Document
 
 
-# Global variables
-#
-
-
 def setup_embeddings():
     """Setup HuggingFace embeddings model"""
     global embeddings_model

@@ -1,6 +1,6 @@
 # Ambedkar RAG System
 
-A command-line Q&A system built for the Kalpit Pvt Ltd AI Intern Assignment. This system implements a Retrieval-Augmented Generation (RAG) pipeline to answer questions based on Dr. B.R. Ambedkar's speech using LangChain, ChromaDB, and Ollama.
+A Q&A system built for the Kalpit Pvt Ltd AI Intern Assignment. This system implements a Retrieval-Augmented Generation (RAG) pipeline to answer questions based on Dr. B.R. Ambedkar's speech using LangChain, ChromaDB, and Ollama.
 
 ## Assignment Overview
 

@@ -25,9 +25,7 @@ from langchain.schema import Document
 
 
 # Global variables
-embeddings_model = None
-vector_store = None
-qa_chain = None
+#
 
 
 def setup_embeddings():

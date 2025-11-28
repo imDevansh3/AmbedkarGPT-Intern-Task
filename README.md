@@ -42,8 +42,8 @@ ollama pull mistral
 ### 1. Clone/Download the Project
 
 ```bash
-# If using git (replace with your actual repository)
-git clone https://github.com/yourusername/AmbedkarGPT-Intern-Task.git
+# If using git 
+git clone https://github.com/imDevansh3/AmbedkarGPT-Intern-Task.git
 cd AmbedkarGPT-Intern-Task
 ```
 
